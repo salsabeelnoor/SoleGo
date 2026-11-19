@@ -8,6 +8,10 @@
         "@shopify/dev-mcp@latest"
       ],
       "env": {}
+    },
+    "solego-storefront": {
+      "type": "http",
+      "url": "https://solego-jc5fa0gj.myshopify.com/api/mcp"
     }
   }
 }
