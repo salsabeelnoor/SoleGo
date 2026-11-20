@@ -215,6 +215,7 @@
     "work_quickly_to_ship": "<p>سنعمل بسرعة لشحن طلبك في أقرب وقت ممكن. بمجرد شحن طلبك، ستتلقى رسالة بريد إلكتروني تحتوي على مزيد من المعلومات. تختلف أوقات التوصيل حسب موقعك.</p>"
   },
   "info": {
+    "split_banner_video": "Optional. Plays when the column is hovered, on screens 1024px and wider.",
     "actions_display_style": "تُستخدم الأيقونات دائماً على الهاتف المحمول",
     "applies_on_image_only": "ينطبق على الصور فقط",
     "aspect_ratio_adjusted": "معدل في بعض التخطيطات",
@@ -246,6 +247,8 @@
     "show_physical_stores_help": "إدراج المواقع المحددة كواجهة متجر فعلية والتي يتوفر فيها المنتج في المخزون أيضًا، حتى عندما لا توفر استلام الطلب."
   },
   "names": {
+    "split_banner_column": "Banner column",
+    "split_banner": "Split banner",
     "hero_banner": "Hero banner",
     "column": "عمود",
     "product_title": "عنوان المنتج",
@@ -691,6 +694,9 @@
     "below_media": "أسفل الوسائط"
   },
   "settings": {
+    "split_banner_heading_size_mobile": "Heading size (mobile)",
+    "split_banner_heading_size_desktop": "Heading size (desktop)",
+    "split_banner_expand_on_hover": "Widen column on hover",
     "accordion": "أكورديون",
     "account": "حساب",
     "actions_display_style": "نمط القائمة",

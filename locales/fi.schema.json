@@ -9,6 +9,8 @@
  */
 {
   "names": {
+    "split_banner_column": "Banner column",
+    "split_banner": "Split banner",
     "hero_banner": "Hero banner",
     "404": "404",
     "colors": "Väripaletti",
@@ -172,6 +174,9 @@
     "disclosures": "Ilmoitukset"
   },
   "settings": {
+    "split_banner_heading_size_mobile": "Heading size (mobile)",
+    "split_banner_heading_size_desktop": "Heading size (desktop)",
+    "split_banner_expand_on_hover": "Widen column on hover",
     "alignment": "Tasaus",
     "autoplay": "Automaattinen toisto",
     "background": "Tausta",
@@ -1094,6 +1099,7 @@
     "disclosures": "Ilmoitukset"
   },
   "info": {
+    "split_banner_video": "Optional. Plays when the column is hovered, on screens 1024px and wider.",
     "carousel_layout_on_mobile": "Mobiilissa käytetään aina karusellia.",
     "video_alt_text": "Kuvaile video avustavan teknologian käyttäjille",
     "video_autoplay": "Videot mykistetään oletusarvoisesti",

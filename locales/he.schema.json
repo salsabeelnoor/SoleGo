@@ -215,6 +215,7 @@
     "work_quickly_to_ship": "<p>נעבוד מהר כדי לשלוח את ההזמנה שלך בהקדם האפשרי. לאחר שההזמנה שלך תישלח, תקבל דוא&quot;ל עם מידע נוסף. זמני האספקה משתנים בהתאם למיקומך.</p>"
   },
   "info": {
+    "split_banner_video": "Optional. Plays when the column is hovered, on screens 1024px and wider.",
     "actions_display_style": "תמיד נעשה שימוש בסמלים בנייד",
     "applies_on_image_only": "חל על תמונות בלבד",
     "aspect_ratio_adjusted": "מותאם בחלק מהפריסות",
@@ -246,6 +247,8 @@
     "show_physical_stores_help": "הצג גם מיקומים המסומנים כחזית חנות פיזית שהמוצר זמין בהם במלאי, גם כאשר הם לא מציעים איסוף."
   },
   "names": {
+    "split_banner_column": "Banner column",
+    "split_banner": "Split banner",
     "hero_banner": "Hero banner",
     "column": "עמודה",
     "product_title": "כותרת מוצר",
@@ -691,6 +694,9 @@
     "direction_top_start": "למעלה, התחלה"
   },
   "settings": {
+    "split_banner_heading_size_mobile": "Heading size (mobile)",
+    "split_banner_heading_size_desktop": "Heading size (desktop)",
+    "split_banner_expand_on_hover": "Widen column on hover",
     "accordion": "אקורדיון",
     "account": "חשבון",
     "actions_display_style": "סגנון תפריט",

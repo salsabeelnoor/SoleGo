@@ -9,6 +9,8 @@
  */
 {
   "names": {
+    "split_banner_column": "Banner column",
+    "split_banner": "Split banner",
     "hero_banner": "Hero banner",
     "404": "404",
     "colors": "カラーパレット",
@@ -172,6 +174,9 @@
     "disclosures": "開示情報"
   },
   "settings": {
+    "split_banner_heading_size_mobile": "Heading size (mobile)",
+    "split_banner_heading_size_desktop": "Heading size (desktop)",
+    "split_banner_expand_on_hover": "Widen column on hover",
     "alignment": "配置",
     "autoplay": "自動再生",
     "background": "背景",
@@ -1094,6 +1099,7 @@
     "disclosures": "開示情報"
   },
   "info": {
+    "split_banner_video": "Optional. Plays when the column is hovered, on screens 1024px and wider.",
     "video_alt_text": "支援技術のユーザーのために動画の説明を記述します",
     "video_autoplay": "動画はデフォルトでミュートになります",
     "video_external": "YouTubeまたはVimeoのURLを使用します",

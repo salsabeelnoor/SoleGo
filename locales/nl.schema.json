@@ -9,6 +9,8 @@
  */
 {
   "names": {
+    "split_banner_column": "Banner column",
+    "split_banner": "Split banner",
     "hero_banner": "Hero banner",
     "404": "404",
     "custom_section": "Aangepaste sectie",
@@ -172,6 +174,9 @@
     "disclosures": "Toelichtingen"
   },
   "settings": {
+    "split_banner_heading_size_mobile": "Heading size (mobile)",
+    "split_banner_heading_size_desktop": "Heading size (desktop)",
+    "split_banner_expand_on_hover": "Widen column on hover",
     "autoplay": "Automatisch afspelen",
     "background": "Achtergrond",
     "border_radius": "Hoekradius",
@@ -1094,6 +1099,7 @@
     "disclosures": "Toelichtingen"
   },
   "info": {
+    "split_banner_video": "Optional. Plays when the column is hovered, on screens 1024px and wider.",
     "carousel_layout_on_mobile": "Op mobiel wordt altijd een carrousel gebruikt",
     "video_alt_text": "Beschrijf de video voor gebruikers van ondersteunende technologie",
     "video_autoplay": "Video's worden standaard gedempt",

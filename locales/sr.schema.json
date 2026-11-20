@@ -215,6 +215,7 @@
     "work_quickly_to_ship": "<p>Radićemo brzo da bismo poslali vašu porudžbinu što je pre moguće. Kada porudžbina bude poslata, dobićete imejl sa daljim informacijama. Vreme isporuke se razlikuje u zavisnosti od vaše lokacije.</p>"
   },
   "info": {
+    "split_banner_video": "Optional. Plays when the column is hovered, on screens 1024px and wider.",
     "actions_display_style": "Ikonice se uvek koriste na mobilnom uređaju",
     "applies_on_image_only": "Primenjuje se samo na slike",
     "aspect_ratio_adjusted": "Prilagođeno u nekim rasporedima",
@@ -246,6 +247,8 @@
     "show_physical_stores_help": "Navedite i lokacije označene kao fizički izlog koje imaju proizvod na zalihama, čak i kada ne nude preuzimanje."
   },
   "names": {
+    "split_banner_column": "Banner column",
+    "split_banner": "Split banner",
     "hero_banner": "Hero banner",
     "column": "Kolona",
     "product_title": "Naziv proizvoda",
@@ -691,6 +694,9 @@
     "below_media": "Ispod medija"
   },
   "settings": {
+    "split_banner_heading_size_mobile": "Heading size (mobile)",
+    "split_banner_heading_size_desktop": "Heading size (desktop)",
+    "split_banner_expand_on_hover": "Widen column on hover",
     "accordion": "Harmonika",
     "account": "Nalog",
     "actions_display_style": "Stil menija",

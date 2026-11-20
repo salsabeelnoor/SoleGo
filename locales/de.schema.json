@@ -9,6 +9,8 @@
  */
 {
   "names": {
+    "split_banner_column": "Banner column",
+    "split_banner": "Split banner",
     "hero_banner": "Hero banner",
     "404": "404",
     "custom_section": "Benutzerdefinierter Abschnitt",
@@ -172,6 +174,9 @@
     "disclosures": "Pflichtangaben"
   },
   "settings": {
+    "split_banner_heading_size_mobile": "Heading size (mobile)",
+    "split_banner_heading_size_desktop": "Heading size (desktop)",
+    "split_banner_expand_on_hover": "Widen column on hover",
     "autoplay": "Autoplay",
     "background": "Hintergrund",
     "border_radius": "Eckenradius",
@@ -1094,6 +1099,7 @@
     "disclosures": "Pflichtangaben"
   },
   "info": {
+    "split_banner_video": "Optional. Plays when the column is hovered, on screens 1024px and wider.",
     "video_alt_text": "Beschreibe das Video für Benutzer von Hilfstechnologien",
     "video_autoplay": "Videos werden standardmäßig stummgeschaltet",
     "video_external": "Verwende eine YouTube- oder Vimeo-URL",

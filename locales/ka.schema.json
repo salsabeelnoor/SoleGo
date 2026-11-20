@@ -215,6 +215,7 @@
     "work_quickly_to_ship": "<p>ჩვენ სწრაფად ვიმუშავებთ, რათა შენი შეკვეთა რაც შეიძლება მალე გამოიგზავნოს. შეკვეთის გაგზავნის შემდეგ მიიღებ ელფოსტას დამატებითი ინფორმაციით. მიწოდების დრო შენს ლოკაციაზეა დამოკიდებული.</p>"
   },
   "info": {
+    "split_banner_video": "Optional. Plays when the column is hovered, on screens 1024px and wider.",
     "actions_display_style": "ხატულები ყოველთვის გამოიყენება მობილურზე",
     "applies_on_image_only": "ვრცელდება მხოლოდ სურათებზე",
     "aspect_ratio_adjusted": "მორგებულია ზოგიერთ განლაგებაში",
@@ -246,6 +247,8 @@
     "show_physical_stores_help": "ასევე ჩამოთვალე ლოკაციები, რომლებიც მონიშნულია, როგორც ფიზიკური ვიტრინა და პროდუქტი მარაგში აქვთ, მაშინაც კი, თუ გატანას არ სთავაზობენ."
   },
   "names": {
+    "split_banner_column": "Banner column",
+    "split_banner": "Split banner",
     "hero_banner": "Hero banner",
     "column": "სვეტი",
     "product_title": "პროდუქტის სათაური",
@@ -691,6 +694,9 @@
     "below_media": "მედიის ქვემოთ"
   },
   "settings": {
+    "split_banner_heading_size_mobile": "Heading size (mobile)",
+    "split_banner_heading_size_desktop": "Heading size (desktop)",
+    "split_banner_expand_on_hover": "Widen column on hover",
     "accordion": "აკორდეონი",
     "account": "ანგარიში",
     "actions_display_style": "მენიუს სტილი",

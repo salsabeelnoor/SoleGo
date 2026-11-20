@@ -215,6 +215,7 @@
     "work_quickly_to_ship": "<p>Ми будемо працювати швидко, щоб відправити ваше замовлення якомога швидше. Після відправлення замовлення ви отримаєте електронний лист із подальшою інформацією. Час доставки залежить від вашого місцезнаходження.</p>"
   },
   "info": {
+    "split_banner_video": "Optional. Plays when the column is hovered, on screens 1024px and wider.",
     "actions_display_style": "Значки завжди використовуються на мобільних пристроях",
     "applies_on_image_only": "Застосовується лише до зображень",
     "aspect_ratio_adjusted": "Скориговано в деяких макетах",
@@ -246,6 +247,8 @@
     "show_physical_stores_help": "Також показувати розташування, позначені як фізична вітрина, де товар є в наявності, навіть якщо вони не пропонують самовивіз."
   },
   "names": {
+    "split_banner_column": "Banner column",
+    "split_banner": "Split banner",
     "hero_banner": "Hero banner",
     "column": "Стовпець",
     "product_title": "Назва товару",
@@ -691,6 +694,9 @@
     "below_media": "Під мультимедіа"
   },
   "settings": {
+    "split_banner_heading_size_mobile": "Heading size (mobile)",
+    "split_banner_heading_size_desktop": "Heading size (desktop)",
+    "split_banner_expand_on_hover": "Widen column on hover",
     "accordion": "Акордеон",
     "account": "Акаунт",
     "actions_display_style": "Стиль меню",

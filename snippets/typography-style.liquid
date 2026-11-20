@@ -71,7 +71,8 @@
     {% else %}
       --line-height: var(--line-height--{{ type }}-{{ settings.line_height }});
     {% endif %}
-    --letter-spacing: var(--letter-spacing--{{ type }}-{{ settings.letter_spacing }});
+    {%- # Without a font size, type is unknown and the variable name would be invalid; use the body scale. -%}
+    --letter-spacing: var(--letter-spacing--{{ type | default: 'body' }}-{{ settings.letter_spacing | default: 'normal' }});
   {%- endif -%}
 {%- endcapture -%}
 {{- variables | strip | strip_newlines -}}

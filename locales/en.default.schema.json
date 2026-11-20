@@ -223,6 +223,7 @@
     "work_quickly_to_ship": "<p>We will work quickly to ship your order as soon as possible. Once your order has shipped, you will receive an email with further information. Delivery times vary depending on your location.</p>"
   },
   "info": {
+    "split_banner_video": "Optional. Plays when the column is hovered, on screens 1024px and wider.",
     "actions_display_style": "Icons are always used on mobile",
     "applies_on_image_only": "Applies to images only",
     "aspect_ratio_adjusted": "Adjusted in some layouts",
@@ -328,6 +329,8 @@
     "heading": "Heading",
     "hero": "Hero",
     "hero_banner": "Hero banner",
+    "split_banner": "Split banner",
+    "split_banner_column": "Banner column",
     "hero_bottom_aligned": "Hero: Bottom aligned",
     "hero_marquee": "Hero: Marquee",
     "icon": "Icon",
@@ -749,6 +752,9 @@
     "below_media": "Below media"
   },
   "settings": {
+    "split_banner_expand_on_hover": "Widen column on hover",
+    "split_banner_heading_size_desktop": "Heading size (desktop)",
+    "split_banner_heading_size_mobile": "Heading size (mobile)",
     "accordion": "Accordion",
     "account": "Account",
     "actions_display_style": "Menu style",

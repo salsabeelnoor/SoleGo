@@ -215,6 +215,7 @@
     "work_quickly_to_ship": "<p>Traballaremos rapidamente para enviar o teu pedido o antes posible. Unha vez que se envíe o pedido, recibirás un correo electrónico con máis información. Os prazos de entrega varían en función da túa localización.</p>"
   },
   "info": {
+    "split_banner_video": "Optional. Plays when the column is hovered, on screens 1024px and wider.",
     "actions_display_style": "As iconas úsanse sempre nos móbiles",
     "applies_on_image_only": "Aplica só a imaxes",
     "aspect_ratio_adjusted": "Axustado nalgúns deseños",
@@ -246,6 +247,8 @@
     "show_physical_stores_help": "Listar tamén as localizacións marcadas como escaparate físico que teñan o produto en stock, aínda que non ofrezan a recollida."
   },
   "names": {
+    "split_banner_column": "Banner column",
+    "split_banner": "Split banner",
     "hero_banner": "Hero banner",
     "column": "Columna",
     "product_title": "Título do produto",
@@ -691,6 +694,9 @@
     "below_media": "Baixo o elemento multimedia"
   },
   "settings": {
+    "split_banner_heading_size_mobile": "Heading size (mobile)",
+    "split_banner_heading_size_desktop": "Heading size (desktop)",
+    "split_banner_expand_on_hover": "Widen column on hover",
     "accordion": "Acordeón",
     "account": "Conta",
     "actions_display_style": "Estilo do menú",

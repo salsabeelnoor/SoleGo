@@ -215,6 +215,7 @@
     "work_quickly_to_ship": "<p>Töötame kiiresti, et lähetada sinu tellimus esimesel võimalusel. Kui tellimus on teele pandud, saad e-kirja lisateabega. Tarneajad sõltuvad sinu asukohast.</p>"
   },
   "info": {
+    "split_banner_video": "Optional. Plays when the column is hovered, on screens 1024px and wider.",
     "actions_display_style": "Mobiilivaates kasutatakse alati ikoone",
     "applies_on_image_only": "Kehtib ainult piltidele",
     "aspect_ratio_adjusted": "Kohandatud osades paigutustes",
@@ -246,6 +247,8 @@
     "show_physical_stores_help": "Kuva ka füüsiliseks müügikeskkonnaks märgitud asukohad, kus toode on laos, isegi kui seal ei pakuta järeletulemist."
   },
   "names": {
+    "split_banner_column": "Banner column",
+    "split_banner": "Split banner",
     "hero_banner": "Hero banner",
     "column": "Veerg",
     "product_title": "Toote pealkiri",
@@ -691,6 +694,9 @@
     "below_media": "Meedia all"
   },
   "settings": {
+    "split_banner_heading_size_mobile": "Heading size (mobile)",
+    "split_banner_heading_size_desktop": "Heading size (desktop)",
+    "split_banner_expand_on_hover": "Widen column on hover",
     "accordion": "Akordion",
     "account": "Konto",
     "actions_display_style": "Menüü stiil",

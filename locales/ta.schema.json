@@ -215,6 +215,7 @@
     "work_quickly_to_ship": "<p>கூடிய விரைவில் உங்கள் ஆர்டரை ஷிப்பிங் செய்ய நாங்கள் துரிதமாகச் செயல்படுவோம். உங்கள் ஆர்டர் ஷிப்பிங் செய்யப்பட்டவுடன், மேலதிகத் தகவல்களுடன் உங்களுக்கு ஒரு மின்னஞ்சல் வரும். டெலிவரி நேரங்கள் உங்கள் இருப்பிடத்தைப் பொறுத்து மாறுபடும்.</p>"
   },
   "info": {
+    "split_banner_video": "Optional. Plays when the column is hovered, on screens 1024px and wider.",
     "actions_display_style": "மொபைலில் ஐகான்கள் எப்போதும் பயன்படுத்தப்படும்",
     "applies_on_image_only": "படங்களுக்கு மட்டுமே பொருந்தும்",
     "aspect_ratio_adjusted": "சில தளவமைப்புகளில் சரிசெய்யப்படும்",
@@ -246,6 +247,8 @@
     "show_physical_stores_help": "நேரில் பெறுதல் வசதியை வழங்காவிட்டாலும், தயாரிப்பு சரக்கு இருப்பில் உள்ள, நேரடி ஸ்டோர்ஃபிரண்ட் எனக் குறிக்கப்பட்டுள்ள இடங்களையும் பட்டியலிடவும்."
   },
   "names": {
+    "split_banner_column": "Banner column",
+    "split_banner": "Split banner",
     "hero_banner": "Hero banner",
     "column": "நெடுவரிசை",
     "product_title": "தயாரிப்புத் தலைப்பு",
@@ -691,6 +694,9 @@
     "below_media": "மீடியாவுக்குக் கீழே"
   },
   "settings": {
+    "split_banner_heading_size_mobile": "Heading size (mobile)",
+    "split_banner_heading_size_desktop": "Heading size (desktop)",
+    "split_banner_expand_on_hover": "Widen column on hover",
     "accordion": "அக்கார்டியன்",
     "account": "கணக்கு",
     "actions_display_style": "மெனு ஸ்டைல்",

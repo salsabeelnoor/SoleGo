@@ -215,6 +215,7 @@
     "work_quickly_to_ship": "<p>Treballarem ràpidament per enviar la comanda al més aviat possible. Quan s'hagi enviat la comanda, rebràs un correu electrònic amb més informació. Els terminis de lliurament varien en funció de la teva ubicació.</p>"
   },
   "info": {
+    "split_banner_video": "Optional. Plays when the column is hovered, on screens 1024px and wider.",
     "actions_display_style": "Les icones s'utilitzen sempre a la versió per a mòbils",
     "applies_on_image_only": "Només s'aplica a les imatges",
     "aspect_ratio_adjusted": "Ajustada en alguns dissenys",
@@ -246,6 +247,8 @@
     "show_physical_stores_help": "Mostra també les ubicacions marcades com a aparador físic que tenen el producte en estoc, encara que no ofereixin recollida."
   },
   "names": {
+    "split_banner_column": "Banner column",
+    "split_banner": "Split banner",
     "hero_banner": "Hero banner",
     "column": "Columna",
     "product_title": "Nom del producte",
@@ -691,6 +694,9 @@
     "below_media": "Sota els elements multimèdia"
   },
   "settings": {
+    "split_banner_heading_size_mobile": "Heading size (mobile)",
+    "split_banner_heading_size_desktop": "Heading size (desktop)",
+    "split_banner_expand_on_hover": "Widen column on hover",
     "accordion": "Acordió",
     "account": "Compte",
     "actions_display_style": "Estil del menú",
