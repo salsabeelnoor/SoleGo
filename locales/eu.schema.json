@@ -246,6 +246,7 @@
     "show_physical_stores_help": "Zerrendatu produktua izakinetan duten eta erakusleiho fisiko gisa markatutako kokapenak ere, bilketa eskaintzen ez badute ere."
   },
   "names": {
+    "hero_banner": "Hero banner",
     "column": "Zutabea",
     "product_title": "Produktuaren izenburua",
     "custom_liquid": "Liquid pertsonalizatua",
