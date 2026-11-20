@@ -29,7 +29,7 @@
     --split-banner-overlay-opacity: {{ section.settings.overlay_opacity | divided_by: 100.0 }};
     --split-banner-heading-size: {% render 'autoclamp', start_value: section.settings.heading_size_desktop, end_value: section.settings.heading_size_mobile, start_width: 1500, end_width: 320 %};
     --split-banner-text-size: {% render 'autoclamp', start_value: 18, end_value: 16, start_width: 1500, end_width: 320 %};
-    --split-banner-button-text-size: {% render 'autoclamp', start_value: 18, end_value: 16, start_width: 1500, end_width: 320 %};
+    --split-banner-button-text-size: {% render 'autoclamp', start_value: 16, end_value: 14, start_width: 1500, end_width: 320 %};
   }
 {% endstyle %}
 
@@ -133,6 +133,8 @@
   .split-banner {
     --split-banner-min-height: 70svh;
     --split-banner-padding: clamp(1.5rem, 5vw, 6.25rem);
+    /* End-side padding: 0 at 1440px+, growing to 1.5rem at 375px (same formula as snippets/autoclamp). */
+    --split-banner-padding-end: clamp(0rem, 2.0282rem - 2.2535vw, 1.5rem);
 
     display: flex;
     flex-direction: column;
@@ -156,9 +158,15 @@
     align-items: flex-end;
     flex: 1 1 0;
     min-width: 0;
-    min-height: clamp(26rem, 70svh, 45rem);
+    min-height: clamp(26rem, 77svh, 45rem);
     overflow: hidden;
     isolation: isolate;
+    @media only screen and (max-width: 768px) {
+      min-height: clamp(26rem, 70svh, 45rem);
+    }
+    @media only screen and (max-width: 640px) {
+      min-height: clamp(26rem, 63svh, 45rem);
+    }
   }
 
   .split-banner__media {
@@ -205,10 +213,15 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 20px;
+    gap: 24px;
     width: 100%;
     max-width: 40rem;
     padding: var(--split-banner-padding);
+    padding-inline-end: var(--split-banner-padding-end);
+    @media only screen and (max-width: 1024px) {
+      max-width: 45rem;
+      gap: 20px;
+    }
   }
 
   .split-banner__heading {
@@ -274,6 +287,10 @@
   }
 
   @media (prefers-reduced-motion: no-preference) {
+    .split-banner__content {
+      transition: gap 0.3s ease-in-out;
+
+    }
     .split-banner__button {
       transition: background-size var(--split-banner-button-sweep), color var(--split-banner-button-sweep),
         transform 0.15s ease;
@@ -282,11 +299,6 @@
     .split-banner__button:active {
       transform: scale(0.98);
     }
-  }
-
-  .split-banner__button:focus-visible {
-    outline: 2px solid var(--split-banner-button-light);
-    outline-offset: 3px;
   }
 
   .split-banner__arrow {
@@ -317,6 +329,9 @@
       opacity: 0;
       transform: translateY(1.5rem);
       margin-block-end: -1.5rem;
+    }
+    .split-banner__column:is(:hover, :focus-within) .split-banner__content {
+      gap: 20px;
     }
 
     .split-banner__column:is(:hover, :focus-within) .split-banner__text-wrapper {
