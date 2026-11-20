@@ -1,0 +1,10 @@
+:root {
+    --pageWidthBig: 1500px;
+    --pageWidthSmall: 1200px;
+    --baseWidth: 92%;
+}
+.theme-container {
+    max-width: var(--pageWidthBig);
+    width: var(--baseWidth);
+    margin: 0 auto;
+}
