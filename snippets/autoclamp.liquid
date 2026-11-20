@@ -1,0 +1,60 @@
+{% doc %}
+  Outputs a fluid CSS `clamp()` value that scales linearly between two screen widths.
+  The value equals `start_value` at `start_width` and `end_value` at `end_width`,
+  and stays fixed outside that range. Widths can be given in either order, so
+  desktop-first (start_width larger) and mobile-first both work. Inputs are px numbers; output uses rem and vw
+  so it respects the visitor's browser font size.
+
+  Liquid is not processed inside `{% stylesheet %}`, so use this in `{% style %}`
+  blocks or inline `style` attributes.
+
+  @param {number} start_value - Value in px at the starting screen width
+  @param {number} end_value - Value in px at the ending screen width
+  @param {number} start_width - Starting screen width in px
+  @param {number} end_width - Ending screen width in px
+
+  @example
+  {% style %}
+    .hero__title {
+      font-size: {% render 'autoclamp', start_value: 48, end_value: 24, start_width: 1440, end_width: 375 %};
+    }
+  {% endstyle %}
+  {%- # Outputs: clamp(1.5rem, 0.9718rem + 2.2535vw, 3rem) -%}
+{% enddoc %}
+{%- liquid
+  assign root_px = 16.0
+
+  # Coerce to numbers: select settings arrive as strings and would compare as text.
+  assign start_value = start_value | plus: 0
+  assign end_value = end_value | plus: 0
+  assign start_width = start_width | plus: 0
+  assign end_width = end_width | plus: 0
+
+  assign delta_width = end_width | minus: start_width
+
+  # Equal widths would divide by zero: fall back to the starting value.
+  if delta_width == 0
+    assign fixed_rem = start_value | divided_by: root_px | round: 4
+    echo fixed_rem | append: 'rem'
+  else
+    # Line through (start_width, start_value) and (end_width, end_value).
+    assign delta_value = end_value | minus: start_value
+    assign slope = delta_value | times: 1.0 | divided_by: delta_width
+    assign slope_offset = slope | times: start_width
+    assign intercept_px = start_value | minus: slope_offset
+
+    assign slope_vw = slope | times: 100 | round: 4
+    assign intercept_rem = intercept_px | divided_by: root_px | round: 4
+
+    # clamp() needs the smaller bound first, so values can also shrink as the screen grows.
+    if start_value < end_value
+      assign min_rem = start_value | divided_by: root_px | round: 4
+      assign max_rem = end_value | divided_by: root_px | round: 4
+    else
+      assign min_rem = end_value | divided_by: root_px | round: 4
+      assign max_rem = start_value | divided_by: root_px | round: 4
+    endif
+
+    echo 'clamp(' | append: min_rem | append: 'rem, ' | append: intercept_rem | append: 'rem + ' | append: slope_vw | append: 'vw, ' | append: max_rem | append: 'rem)'
+  endif
+-%}
