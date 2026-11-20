@@ -177,6 +177,18 @@
     --palette-darkest-rgb: {{ palette_darkest.rgb }};
     {% render 'brightness-opacities', background: settings.page_background_color %}
 
+    /* SoleGo brand colors: site-wide names for the four palette slots in theme settings */
+    --background-light: {{ settings.color_palette.background }};
+    --background-light-rgb: {{ settings.color_palette.background.rgb }};
+    --text-dark: {{ settings.color_palette.foreground }};
+    --text-dark-rgb: {{ settings.color_palette.foreground.rgb }};
+    --color-primary: {{ settings.color_palette.color1 }};
+    --color-primary-rgb: {{ settings.color_palette.color1.rgb }};
+    --color-primary-light: {{ settings.color_palette.color2 }};
+    --color-primary-light-rgb: {{ settings.color_palette.color2.rgb }};
+    --color-gray-light: {{ settings.color_palette.color3 }};
+    --color-gray-light-rgb: {{ settings.color_palette.color3.rgb }};
+    /* ------------------------------------------------------------------------------------ */
     --color-primary-button-text: rgb({{ settings.palette_primary_button_text.rgba }});
     --color-primary-button-background: rgb({{ settings.palette_primary_button_background.rgba }});
     --color-primary-button-border: rgb({{ settings.palette_primary_button_border.rgba }});
