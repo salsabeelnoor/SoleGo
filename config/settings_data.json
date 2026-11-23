@@ -9,8 +9,11 @@
  */
 {
   "current": {
-    "logo_height": 36,
-    "logo_height_mobile": 28,
+    "logo": "shopify://shop_images/amsterdam-clay-studio.png",
+    "logo_inverse": "shopify://shop_images/amsterdam-clay-studio-inverse.png",
+    "logo_height": 35,
+    "logo_height_mobile": 27,
+    "favicon": "shopify://shop_images/amsterdam-clay-studio-favicon.png",
     "page_text_color": "{{ settings.color_palette.foreground }}",
     "type_body_font": "karla_n4",
     "type_subheading_font": "montserrat_n5",
